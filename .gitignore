@@ -1,0 +1,15 @@
+# Python önbellek dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model ve Dağıtım Dosyaları (Büyük boyutlu)
+*.joblib
+*.zip
+layer/
+python/
+
+# Ortam Değişkenleri ve Gizli Dosyalar
+.env
+.aws/
+credentials.json
