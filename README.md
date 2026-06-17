@@ -1,0 +1,1 @@
+# Akilli-Veri-Analiti-i-Makine-Ogrenmesi
