@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 import joblib
 
 # MongoDB bağlantı bilgilerinizi girmeyi unutmayın
-client = MongoClient("mongodb+srv://erdemfurkan534_db_user:YHE3HCLu45dPLAa1@cluster0.4x7xivl.mongodb.net/?appName=Cluster0")
+client = MongoClient("MONGO_CREDENTIALS")
 db = client["trafik_analitigi"]
 df = pd.DataFrame(list(db["kaza_verileri"].find({}, {"_id": 0})))
 
