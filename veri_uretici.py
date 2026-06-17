@@ -16,7 +16,7 @@ df = pd.DataFrame({
 })
 
 # 2. MongoDB'ye Aktarım
-client = MongoClient("mongodb+srv://erdemfurkan534_db_user:YHE3HCLu45dPLAa1@cluster0.4x7xivl.mongodb.net/?appName=Cluster0")
+client = MongoClient("MONGO_CREDENTIALS")
 db = client["trafik_analitigi"]
 collection = db["kaza_verileri"]
 
